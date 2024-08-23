@@ -1,0 +1,8 @@
+.mainContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.616rem;
+  padding: 1rem 3rem;
+}

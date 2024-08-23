@@ -1,0 +1,11 @@
+.mainContainer {
+  background-color: rgb(76, 75, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+
