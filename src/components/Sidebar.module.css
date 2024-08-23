@@ -1,5 +1,5 @@
 .mainContainer {
-  position: absolute;
+  position: fixed;
   background-color: rgb(76, 75, 75);
   color: white;
   z-index: 100;
