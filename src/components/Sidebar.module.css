@@ -1,17 +1,18 @@
 .mainContainer {
   position: fixed;
-  background-color: rgb(76, 75, 75);
+  background-color: rgb(75, 75, 75);
   color: white;
   z-index: 100;
   right: 0;
   top: 0;
   bottom: 0;
-  width: 30vw;
+  width: 35vw;
   display: flex;
   align-items: center;
   flex-direction: column;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
+  background: linear-gradient(to right, black -150%, rgb(75, 75, 75) 30%);
 }
 .open {
   transform: translateX(0%);
@@ -21,7 +22,7 @@
   font-size: 1.8rem;
   position: absolute;
   left: 1rem;
-  top: 1rem;
+  top: 0.4rem;
 }
 
 .sideNav {

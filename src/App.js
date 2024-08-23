@@ -6,6 +6,7 @@ import One from "./components/One";
 import Three from "./components/Three";
 import Two from "./components/Two";
 import Body from "./components/Body";
+import Error from "./components/Error";
 import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/one" element={<One />} />
           <Route path="/two" element={<Two />} />
           <Route path="/three" element={<Three />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
       <Footer />
